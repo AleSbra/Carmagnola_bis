@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manoscritti manzoniani con testo in pulito</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Edition</edition>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Alessia Marini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <ref target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0
+                        International (CC BY 4.0)</ref>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:id="ma">
+                <body>
+                    <div n="01_ma">
+                        <p><app>
+                                <lem n="001"><milestone unit="seg" n="001"/>Ben altro conto. Or
+                                    d’essa <app>
+                                        <lem n="001.1">un primo pegno</lem>
+                                        <rdg type="prima"><del>il primo</del></rdg>
+                                    </app></lem>
+                            </app>
+                            <app>
+                                <lem n="002">Darvi senza <app>
+                                        <lem n="002.1">esitanza. Io</lem>
+                                        <rdg>esitanza = io</rdg>
+                                    </app> tengo al tutto </lem>
+                            </app>
+                            <app>
+                                <lem n="003">Tanto <app>
+                                        <lem n="003.1">più,</lem>
+                                        <rdg>più</rdg>
+                                    </app> quanto fien gl'indugi meno.</lem>
+                            </app>
+                            <app>
+                                <lem n="004">A che partito è il <app>
+                                        <lem n="004.1">Duca? A</lem>
+                                        <rdg>duca? a</rdg>
+                                    </app> mezzo è vinta</lem>
+                            </app>
+                            <app>
+                                <lem n="005">Dal <app>
+                                        <lem n="005.1">terror,</lem>
+                                        <rdg>terror</rdg>
+                                    </app> dai tributi i <app>
+                                        <lem n="005.2">cittadini</lem>
+                                        <rdg>cittadini,</rdg>
+                                    </app></lem>
+                            </app>
+                            <app>
+                                <lem n="006">Le sconfitte e le <app>
+                                        <lem n="006.1">fughe. Io</lem>
+                                        <rdg>fughe; io</rdg>
+                                    </app>
+                                    <app>
+                                        <lem n="006.2">li</lem>
+                                        <rdg type="da">gli</rdg>
+                                    </app> conosco,</lem>
+                            </app>
+                            <app>
+                                <lem n="007"><app>
+                                        <lem>Dura</lem>
+                                        <rdg type="risc"><del>Dura</del></rdg>
+                                    </app>il pensier <app>
+                                        <lem n="007.2">glorïoso</lem>
+                                        <rdg>glorioso</rdg>
+                                    </app></lem>
+                            </app>
+                            <app>
+                                <lem n="008">Viver civile; e tostamente un guardo/ Rivolgon di
+                                    desio là dove appena/ D'un qualunque avvenir si mostri un
+                                    raggio</lem>
+                                <rdg n="1">Viver civile; essi bramoso il guardo/ Volgono ovunque
+                                    appena un raggio sembri/ D’un avvenir diverso
+                                    sollevarsi</rdg>
+                                <rdg n="2">Viver civile; e tostamente il guardo/ Rivolgon di
+                                    desio laddove un raggio/ D'un qualunque avvenir si mostri
+                                    appena,</rdg>
+                            </app>
+                        </p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="cc">
+                <body>
+                    <div n="01_cc">
+                        <p>
+                            <app>
+                                <lem n="001">Darvi senza <app>
+                                    <lem n="001.1">esitanza. Io</lem>
+                                    <rdg>esitanza = io</rdg>
+                                </app> tengo al tutto </lem>
+                            </app>
+                            <app>
+                                <lem n="002">Tanto <app>
+                                    <lem n="002.1">più,</lem>
+                                    <rdg>più</rdg>
+                                </app> quanto fien gl'indugi meno.</lem>
+                            </app>
+                            <app>
+                                <lem n="003">A che partito è il <app>
+                                    <lem n="003.1">Duca? A</lem>
+                                    <rdg>duca? a</rdg>
+                                </app> mezzo è vinta</lem>
+                            </app>
+                            <app>
+                                <lem n="004">Da lui <app>
+                                    <lem n="004.1">Firenze:</lem>
+                                    <rdg>Firenze,</rdg>
+                                </app> ma <app><lem n="004.2">ferito e stanco</lem><rdg>spossato e fiacco</rdg></app></lem>
+                            </app>
+                            <app>
+                                <lem n="005">Dal <app>
+                                    <lem n="005.1">terror,</lem>
+                                    <rdg>terror</rdg>
+                                </app> dai tributi i <app>
+                                    <lem n="005.2">cittadini</lem>
+                                    <rdg>cittadini,</rdg>
+                                </app></lem>
+                            </app>
+                            <app>
+                                <lem n="006">Le sconfitte e le <app>
+                                    <lem n="006.1">fughe. Io</lem>
+                                    <rdg>fughe: io</rdg>
+                                </app>
+                                </lem>
+                            </app>
+                                    <app>
+                                        <lem n="007">Dura il pensier <app>
+                                            <lem n="007.1">glorïoso</lem>
+                                            <rdg>glorioso</rdg>
+                                        </app></lem>
+                                    </app>     
+                        </p>
+                    </div>
+                </body>
+            </text>
+            <!--   -->
+        </group>
+    </text>
+</TEI>

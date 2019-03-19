@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="myTEI_carm_bis.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="xslt_carm_bis.xsl"?>
+<?xml-stylesheet type="text/xsl" href="xslt_pulito_carm_bis.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prototipo Manzoni, un'edizione digitale per <hi style="italic">Il Conte di
+                  Carmagnola</hi> nelle sue due redazioni manzoniane CC e MA</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition</edition>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Alessia Marini</name>
+            </respStmt>
+         </editionStmt>
+
+         <publicationStmt>
+            <distributor>
+               <ref target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0
+                  International (CC BY 4.0)</ref>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>I facsimile delle due redazioni manoscritte denominate MANZ e CC, sono stati
+               acquistiti manualmente, fotografando o scansionando gli originali.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <!--<change xml:id="">
+                        <desc></desc>
+                    </change>-->
+            <listChange xml:id="writing_ma">
+               <change xml:id="wma01">
+                  <desc>porzione di testo altro personaggio</desc>
+               </change>
+               <change xml:id="wma02">
+                  <desc>Conte</desc>
+               </change>
+               <change xml:id="wma03">
+                  <desc>prima porzione composta</desc>
+               </change>
+               <change xml:id="wma03-1" type="refused">
+                  <desc>testo eliminato</desc>
+               </change>
+               <change xml:id="wma04">
+                  <desc>testo riscritto</desc>
+               </change>
+               <change xml:id="wma05">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="wma06">
+                  <desc>testo</desc>
+               </change>
+               <change xml:id="wma07">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="wma08">
+                  <desc>Scena Terza</desc>
+               </change>
+               <change xml:id="wma09">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="wma10">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="wma11">
+                  <desc>testo</desc>
+               </change>
+            </listChange>
+            <listChange xml:id="writing_cc">
+               <change xml:id="wcc01">
+                  <desc>Conte</desc>
+               </change>
+               <change xml:id="wcc02">
+                  <desc>porzione di testo</desc>
+               </change>
+               <change xml:id="wcc03">
+                  <desc>testo</desc>
+               </change>
+               <change xml:id="wcc04">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="wcc05">
+                  <desc>Scena Terza</desc>
+               </change>
+               <change xml:id="wcc06">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="wcc07">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="wcc08">
+                  <desc>testo</desc>
+               </change>
+            </listChange>
+            <listChange xml:id="reading_ma">
+               <change xml:id="rma01" type="txt">
+                  <desc>personaggio precedente</desc>
+               </change>
+               <change xml:id="rma02" type="ptxt">
+                  <desc>Conte</desc>
+               </change>
+               <change xml:id="rma03" type="txt">
+                  <desc>prima porzione di testo</desc>
+               </change>
+               <change xml:id="rma04" type="txt">
+                  <desc>testo aggiunto</desc>
+               </change>
+               <change xml:id="rma05" type="txt">
+                  <desc>testo finale</desc>
+               </change>
+               <change xml:id="rma06" type="ptxt">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="rma07" type="txt">
+                  <desc>testo</desc>
+               </change>
+               <change xml:id="rma08" type="ptxt">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="rma09" type="ptxt">
+                  <desc>Scena Terza</desc>
+               </change>
+               <change xml:id="rma10" type="ptxt">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="rma11" type="ptxt">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="rma12" type="txt">
+                  <desc>testo</desc>
+               </change>
+            </listChange>
+            <listChange xml:id="reading_cc">
+               <change xml:id="rcc01" type="ptxt">
+                  <desc>Conte</desc>
+               </change>
+               <change xml:id="rcc02" type="txt">
+                  <desc>testo</desc>
+               </change>
+               <change xml:id="rcc03" type="txt">
+                  <desc>testo</desc>
+               </change>
+               <change xml:id="rcc04" type="ptxt">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="rcc05" type="ptxt">
+                  <desc>Scena Terza</desc>
+               </change>
+               <change xml:id="rcc06" type="ptxt">
+                  <desc>paratesto</desc>
+               </change>
+               <change xml:id="rcc07" type="ptxt">
+                  <desc>Il Doge</desc>
+               </change>
+               <change xml:id="rcc08" type="txt">
+                  <desc>testo</desc>
+               </change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp xml:id="sg1">
+         <surface n="01" xml:id="carm1">
+            <graphic url="images/01_Carm.png" width="1948.03125px" height="1356.03125px"/>
+            <zone ulx="1359" uly="176" lrx="1816" lry="295" change="#wma01 #rma01"
+               style="font-size:20" rend="posizione:1.5 0.25">
+               <line><milestone unit="seg" n="001"/>Ben altro conto. Or d’essa <del>il primo</del> un primo pegno</line>
+               <line>Il vostro schietto consigliar ci sia. </line>
+            </zone>
+            <zone ulx="1498" uly="296" lrx="1626" lry="341" change="#wma02 #rma02"
+               style="font-size:20" rend="posizione:0.5 0.25">
+               <line type="subtitle">Il Conte</line>
+            </zone>
+            <zone ulx="1306" uly="341" lrx="1807" lry="1261" change="#wma03" style="font-size:20"
+               rend="posizione:1.7 0.25">
+               <line>Lieto son io che un tal consiglio io possa</line>
+               <line>Darvi senza esitanza: io tengo al tutto</line>
+               <line>Necessaria la guerra, e della guerra,</line>
+               <line>Se oltre il presente è mai concesso all’uomo</line>
+               <line>Cosa certa veder, certo l’evento; </line>
+               <line>Tanto più, quanto fien gl’indugi meno. </line>
+               <line>A che partito è il Duca? a mezzo è vinta </line>
+               <line>Da lui Firenze; ma spossato e fiacco</line>
+               <line>Il vincitor; vuoti gli erari: oppressi </line>
+               <line>Dal terror, dai tributi i cittadini</line>
+               <line>Pregan dal ciel su l’armi loro istesse </line>
+               <line>Le sconfitte e le fughe. Io gli conosco, </line>
+               <line>E conoscer li deggio: a molti in mente </line>
+               <line>Dura <add place="above" style="indent:1336"><del>Dura</del></add> il pensier del
+                  glorioso, antico </line>
+               <line>Viver civile; essi bramoso il guardo </line>
+               <line>Volgono ovunque appena un raggio sembri </line>
+               <line>D’un avvenir diverso sollevarsi</line>
+               <line>Frementi del presente e vergognosi.</line>
+               <line>Ei conosce il periglio; indi l’udite</line>
+               <line>Mansueto parlarvi; indi vi chiede</line>
+            </zone>
+            <zone ulx="1305" uly="341" lrx="1804" lry="970" change="#rma03" style="font-size:20"
+               rend="posizione:1.7 0.25">
+               <line>Lieto son io che un tal consiglio io possa</line>
+               <line><milestone unit="seg" n="002"/>Darvi senza esitanza: io tengo al tutto</line>
+               <line>Necessaria la guerra, e della guerra,</line>
+               <line>Se oltre il presente è mai concesso all’uomo</line>
+               <line>Cosa certa veder, certo l’evento; </line>
+               <line><milestone unit="seg" n="003"/>Tanto più, quanto fien gl’indugi meno. </line>
+               <line><milestone unit="seg" n="004"/>A che partito è il Duca? a mezzo è vinta </line>
+               <line>Da lui Firenze; ma spossato e fiacco</line>
+               <line>Il vincitor; vuoti gli erari: oppressi </line>
+               <line><milestone unit="seg" n="005"/>Dal terror, dai tributi i cittadini</line>
+               <line>Pregan dal ciel su l’armi loro istesse </line>
+               <line><milestone unit="seg" n="006"/>Le sconfitte e le fughe. Io gli conosco, </line>
+               <line>E conoscer li deggio: a molti in mente </line>
+               <line><milestone unit="seg" n="007"/>Dura <add place="above" style="indent:1336"><del>Dura</del></add> il pensier del
+                  glorioso, antico </line>
+            </zone>
+            <zone ulx="1305" uly="970" lry="1118" lrx="1804" change="#wma03-1" style="nobox;">
+               <delSpan rend="cross" spanTo="#del1"/>
+               <anchor xml:id="del1"/></zone>
+            <zone ulx="925" uly="949" lrx="1323" lry="1099" change="#wma04 #rma04"
+               style="font-size:18" rend="posizione:1.7 0.05">
+               <line><milestone unit="seg" n="008"/>Viver civile; e tostamente <del>il</del>
+                  <add place="above" style="indent:1185">un</add> guardo</line>
+               <line>Rivolgon di desio <del>laddove un raggio</del><add place="above"
+                     style="indent:1131">là dove appena</add></line>
+               <line> D’un qualunque avvenir si mostri <del>appena</del><add place="above"
+                     style="indent:1237">un raggio</add>,</line>
+            </zone>
+            <zone ulx="1306" uly="1118" lrx="1717" lry="1258" change="#rma05" style="font-size:20"
+               rend="posizione:1.5 0.25">
+               <line>Frementi del presente e vergognosi.</line>
+               <line>Ei conosce il periglio; indi l’udite</line>
+               <line>Mansueto parlarvi; indi vi chiede</line>
+            </zone>
+            <zone ulx="310" uly="127" lrx="490" lry="188" change="#wcc01 #rcc01"
+               style="font-size:20" rend="posizione:1 0.25">
+               <line type="subtitle">Il Conte </line>
+            </zone>
+            <zone ulx="108" uly="157" lrx="778" lry="1250" change="#wcc02 #rcc02"
+               style="font-size:20" rend="posizione:2 0.25">
+               <line>Lieto son’ io che un tal consiglio io possa </line>
+               <line><milestone unit="seg" n="001"/>Darvi senza esitanza. Io tengo al tutto </line>
+               <line>Necessaria la guerra, e della guerra – </line>
+               <line>Se oltre il presente è mai concesso all'uomo </line>
+               <line>Cosa certa veder – certo l'evento;</line>
+               <line><milestone unit="seg" n="002"/>Tanto più, quanto fien gl'indugi meno.</line>
+               <line><milestone unit="seg" n="003"/>A che partito è il Duca? A mezzo è vinta </line>
+               <line><milestone unit="seg" n="004"/>Da lui Firenze: ma ferito e stanco</line>
+               <line>Il vincitor: vuoti gli erarj: oppressi </line>
+               <line><milestone unit="seg" n="005"/>Dal terror, dai tributi i cittadini </line>
+               <line>Pregan dal ciel su l'armi loro istesse </line>
+               <line>Le sconfitte e le fughe. Io li conosco, </line>
+               <line>E conoscer li deggio: a molti in mente </line>
+               <line>Dura il pensier del glorïoso, antico</line>
+               <line>Viver civile; e tostamente un guardo </line>
+               <line>Rivolgon di desio là dove appena </line>
+               <line>D'un qualunque avvenir si mostri un raggio, </line>
+               <line>Frementi del presente e vergognosi. </line>
+               <line>Ei conosce il periglio; indi l'udite </line>
+               <line>Mansueto parlarvi; indi vi chiede</line>
+               <line>Tempo soltanto da sbranar la preda </line>
+               <line>Che già tiensi fra l'ugne, e divorarla. </line>
+            </zone>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="sg2">
+         <surface n="02" xml:id="carm2">
+            <graphic url="images/02_Carm.png" width="1684.03125px" height="1329.03125px"/>
+            <zone ulx="1252" uly="137" lrx="1386" lry="193" change="#wma05 #rma06" style="font-size:20" rend="posizione:1 0.25">
+               <line>Il Doge </line>
+            </zone>
+            <zone ulx="1135" uly="179" lrx="1587" lry="428" change="#wma06 #rma07" style="font-size:18" rend="posizione:1.5 0.25">
+               <line>Conte, su questo fedel vostro avviso</line>
+               <line>Tosto il senato prenderà partito;</line>
+               <line><del>Ma il segua o no, grato ei l’avrà, ch’ei mostra</del></line>
+               <line>Ma il segua, o no, vi è grato; e vede in esso, </line>
+               <line>Non men che il senno, il vostro amor per noi. </line>
+            </zone>
+            <zone ulx="1383" uly="439" lrx="1579" lry="475" change="#wma07 #rma08" style="font-size:20" rend="posizione:0.5 0.25">
+               <line>(parte il Conte)</line>
+            </zone>
+            <zone ulx="1233" uly="476" lrx="1456" lry="530" change="#wma08 #rma09" style="font-size:20" rend="posizione:0.5 0.25">
+               <line><hi style="italic">Scena terza</hi></line>
+            </zone>
+            <zone ulx="1200" uly="547" lrx="1467" lry="604" change="#wma09 #rma10" style="font-size:20" rend="posizione:1 0.25">
+               <line>Il Doge e Senatori</line>
+            </zone>
+            <zone ulx="1255" uly="616" lrx="1413" lry="656" change="wma10 #rma11" style="font-size:20" rend="posizione:0.5 0.5">
+               <line>Il Doge</line>
+            </zone>
+            <zone ulx="1101" uly="641" lrx="1546" lry="1258" change="wma11 #rma12" style="font-size:20" rend="posizione:1.7 0.25">
+               <line>Dissimil certo da sì nobil voto</line>
+               <line>Nessun s'aspetta il mio. Quando il consiglio </line>
+               <line>Più generoso è il più sicuro, in forse</line>
+               <line>Chi potria rimaner? Porgiam Porgiam la mano </line>
+               <line>Al fratello che implora: un nodo esterno sacro nodo </line>
+               <line>Stringe i liberi stati <gap/> : hanno comuni </line>
+               <line>Fra lor rischi e speranze; e treman tutti </line>
+               <line>Dai fondamenti al rovinar d'un solo.</line>
+               <line>Provocator dei deboli, nemico</line>
+            </zone>
+            <zone ulx="87" uly="28" lrx="715" lry="194" change="#wcc03 #rcc03" style="font-size:20" rend="posizione:1.5 0.25">
+               <line>Tosto il Senato prenderà partito;</line>
+               <line>Ma il segua, o no, vi è grato; e vede in esso, </line>
+               <line>Non men che il senno, il vostro amor per noi. </line>
+            </zone>
+            <zone ulx="370" uly="194" lrx="655" lry="241" change="#wcc04 #rcc04" style="font-size:20" rend="posizione:0.5 0.5">
+               <line>(parte il Conte) </line>
+            </zone>
+            <zone ulx="228" uly="206" lrx="486" lry="284" change="#wcc05 #rcc05" style="font-size:20" rend="posizione:1.5 1">
+            <line><hi style="italic">Scena terza</hi></line>
+            </zone>
+            <zone ulx="171" uly="274" lrx="688" lry="343" change="#wcc06 #rcc06" style="font-size:20" rend="posizione:1.3 1">
+            <line>Il Doge e Senatori</line>
+            </zone>
+            <zone ulx="288" uly="341" lrx="445" lry="385" change="#wcc07 #rcc07" style="font-size:20" rend="posizione:0.5 0.5">
+            <line>Il Doge </line>
+            </zone>
+            <zone ulx="75" uly="376" lrx="732" lry="1193" change="#wcc08 #rcc08" style="font-size:20" rend="posizione:4 0.25">
+            <line>Dissimil certo da sì nobil voto</line>
+            <line>Nessun s'aspetta il mio. Quando il consiglio </line>
+            <line> Più generoso è il più sicuro, in forse</line>
+            <line>Chi potria rimaner? <del>Porgiam</del><add place="above" style="indent:1341">Porgiam</add> la mano</line>
+            <line> Al fratello che implora: un <del>nodo sacro</del><add place="above" style="indent:1402">Sacro nodo</add></line>
+            <line>Stringe i liberi Stati: hanno comuni </line>
+            <line>Fra lor rischi e speranze; e treman tutti </line>
+            <line>Dai fondamenti al rovinar d'un solo.</line>
+            <line>Provocator dei deboli, nemico </line>
+            <line>D'ognun che schiavo non gli sia, la pace </line>
+            </zone>
+         </surface>
+      </surfaceGrp>
+   </sourceDoc>
+</TEI>
